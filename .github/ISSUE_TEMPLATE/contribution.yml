@@ -1,0 +1,30 @@
+name: Help move the project forward
+description: Leave a concrete improvement, example, or piece of work another visitor can build on.
+title: "Contribution: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for picking up a piece. A few useful sentences are enough.
+        Share only material you have permission to make public.
+  - type: textarea
+    id: contribution
+    attributes:
+      label: What can you contribute?
+      description: Share a specific improvement, example, proposed patch, or problem with enough context to act on it.
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: What did you check?
+      description: Explain what supports your contribution, or say what still needs to be verified.
+    validations:
+      required: false
+  - type: textarea
+    id: next-piece
+    attributes:
+      label: Is there a next piece someone could pick up?
+      description: Leave a concrete next step if useful. This can stay empty.
+    validations:
+      required: false
